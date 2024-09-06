@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+/* cabeçalho*/
+h1, p{
+    text-align: center;
+}
+
+h1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #4a87e8;
+}
+
+/* galeria */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card{
+    display: inline-block;
+    width: 200px;
+    margin: 25px;
+    border: 1px solid #4a87e8;
+}
+
+.card-image{
+    height: 200px;
+    background-size: cover;    
+}
+
+.card-1 .card-image{
+    background-image: url("../img/gary-bendig-KvHT4dltPEQ-unsplash.jpg");
+}
+
+.card-2 .card-image{
+    background-image: url("../img/geranimo-UcBkRilVFVs-unsplash.jpg");
+}
+
+.card-3 .card-image{
+    background-image: url("../img/jessica-weiller-kZ8dyUT0h30-unsplash.jpg");
+}
+
+.card-4 .card-image{
+    background-image: url("../img/laura-college-K_Na5gCmh38-unsplash.jpg");
+}
+
+.card-5 .card-image{
+    background-image: url("../img/ray-hennessy-xUUZcpQlqpM-unsplash.jpg");
+}
+
+.card-6 .card-image{
+    background-image: url("../img/ricky-kharawala-adK3Vu70DEQ-unsplash.jpg");
+}
+
+.card-7 .card-image{
+    background-image: url("../img/sam-carter-GHOiyov2TSQ-unsplash.jpg");
+}
+
+.card-8 .card-image{
+    background-image: url("../img/sunguk-kim-tIfrzHxhPYQ-unsplash.jpg");
+}
+
+.btn{
+    display: block;
+    background-color: #4a87e8;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid transparent;
+    font-weight: bold;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #4a87e8;
+    border-color: #4a87e8;
+}
+
+.card-description{
+    padding: 20px 10px;
+}
