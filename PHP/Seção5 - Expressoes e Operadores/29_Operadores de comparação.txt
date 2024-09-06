@@ -1,0 +1,7 @@
+
+== : igualdade
+=== : identico a
+!= : diferenca
+!== : não identico a
+> e >=: maior  e maior igual
+< e <=: menor e menor igual

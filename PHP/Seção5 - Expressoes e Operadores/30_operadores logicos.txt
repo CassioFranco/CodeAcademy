@@ -1,0 +1,4 @@
+
+&&: AND
+||: OR  Só resulta falso caso os dois lados sejam falsos
+!: NOT
