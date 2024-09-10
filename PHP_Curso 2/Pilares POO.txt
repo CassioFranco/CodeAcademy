@@ -1,0 +1,17 @@
+Os pilares da Programação Orientada a Objetos (POO) são:
+
+Encapsulamento: 
+É a ideia de agrupar dados (atributos) e comportamentos (métodos) em uma única unidade chamada objeto. 
+Isso ajuda a proteger os dados e a esconder detalhes internos, expondo apenas o que é necessário.
+
+Herança: 
+Permite criar novas classes baseadas em classes existentes. A nova classe (subclasse) herda atributos e métodos da classe original (superclasse), 
+podendo adicionar novos ou modificar os existentes.
+
+Polimorfismo: 
+Permite que diferentes classes possam ser tratadas através de uma interface comum. 
+Isso significa que um mesmo método pode ter comportamentos diferentes dependendo do objeto que o está utilizando.
+
+Abstração: 
+É o processo de simplificar um sistema complexo, escondendo os detalhes desnecessários e expondo apenas as características essenciais. 
+Em POO, isso é feito através de classes e interfaces que representam conceitos ou entidades do mundo real.
