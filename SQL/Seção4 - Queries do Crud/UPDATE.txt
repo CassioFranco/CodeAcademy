@@ -1,0 +1,14 @@
+Atualizando dados
+
+
+- para atualizar dados vamos utilizar a instrução UPDATE:
+
+UPDATE <tabela> SET <coluna=valor> WHERE <condição>;
+
+exemplo:
+
+UPDATE pessoas SET limite= 10000 WHERE nome = "roberta";
+
+
+-lembre-se de utilizar o WHERE.
+-podemos inserir mais colunas, separando elas por vírgula.

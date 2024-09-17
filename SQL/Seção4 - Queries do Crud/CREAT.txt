@@ -1,0 +1,5 @@
+Insirindo Dados
+
+INSERT INTO <tabela> (<colunas>) VALUES (<valores>).
+
+os valores e as colunas devem ser separados por vírgula.

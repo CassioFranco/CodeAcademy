@@ -1,0 +1,7 @@
+Selecionar colunas específicas
+
+para selecionar colunas específicas trocamos o "*" por o nome da colunas
+
+SELECT coluna1, coluna2 FROM <tabela>;
+
+desta maneira criamos um filtro, deixando nossa consulta um pouco mais leve.

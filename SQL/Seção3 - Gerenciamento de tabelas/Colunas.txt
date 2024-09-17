@@ -1,0 +1,17 @@
+Adicionando nova coluna a tabela
+
+ALTER TABLE <tabela> ADD COLUMN <nome> <tipo>;
+
+
+Removendo coluna da tabela
+
+ALTER TABLE <tabela> DROP COLUMN <nome>;
+
+
+
+Modificando coluna
+
+alterar um tipo de dados:
+
+ALTER TABLE <tabela> MODIFY COLUMN <coluna> <tipo>;
+

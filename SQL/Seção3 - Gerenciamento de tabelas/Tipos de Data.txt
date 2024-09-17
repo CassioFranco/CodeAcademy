@@ -1,0 +1,9 @@
+Tipos de Data
+
+DATE: aceita uma data no formato yyyy-mm-dd.
+
+DATETIME: aceita uma data com horario no formato yyyy-mm-dd  hh:mm:ss.
+
+TIMESTAMP: aceita uma data no formato de DATETIME, porém apenas entre os anos 1970 a 2038;
+
+As datas também inserimos entre aspas!

@@ -1,0 +1,9 @@
+A importância do SELECT
+
+- a maioria das queries em um banco de dados são de consulta.
+
+- e é também o comando com mais variações.
+
+- para receber detalhados resultados, precisamos aprender todo o poder do SELECT.
+
+- desta maneira criaremos filtros avançados e conseguiremos atingir o resultado desejado facilmente.

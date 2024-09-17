@@ -1,0 +1,9 @@
+Operadores
+
+-Comparação(>,<,>=,<=,=): estes operadores vão filtrar dados baseados nas comparações.
+
+-BETWEEN: seleção entre um intervalo.
+
+-LIKE: seleção por meio de algum padrão.
+
+-IN: seleção entre um conjunto de valores específicos.

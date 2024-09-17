@@ -1,0 +1,29 @@
+Criando tabelas
+
+CREATE TABLE <nome> (<coluna> <tipo de dado>(quantidade de caracteres));
+
+
+
+Removendo tabelas
+
+DROP TABLE <nome>;
+
+
+Inserir dados nas tabelas
+
+INSERT INTO <nome tabela>(nome das colunas em ordem) VALUES(dados a ser inseridos em ordem);
+
+
+pricisamos inserir o nome das colunas e também os valores para cada uma, separados por vírgula;
+os valores precisam corresponder a ordem das colunas.
+obs: valores de texto são inseridos entre aspas;
+
+
+Visualizar
+
+SELECT * FROM '<nome>';
+
+obs: nome entre aspas.
+
+
+

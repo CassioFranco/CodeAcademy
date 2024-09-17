@@ -1,0 +1,9 @@
+Utilizando o Distinct
+
+- o Distinct vai selecionar apenas as variações de valores.
+por exemplo: temos 10 cidades diferentes de usuários no sistema, só recebemos 10 resultados;
+
+
+SELECT DISTINCT <coluna> FROM <tabela>;
+
+volta apenas os valores diferentes da coluna selecionada.

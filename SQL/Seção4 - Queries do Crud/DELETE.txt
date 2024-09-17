@@ -1,0 +1,11 @@
+Deletando Dados
+
+-para deletar dados vamos utilziar a instrução DELETE:
+
+DELETE FROM <tabela> WHERE <condição>;
+
+
+
+
+-lembre-se de utilizar o WHERE, se não deletamos todos os dados;
+- A qauntidade de dados removidos depende do WHERE.
