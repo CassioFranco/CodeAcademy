@@ -1,0 +1,23 @@
+Docker
+
+Para o módulo 4, com o docker do mysql rodando, é possível acessar o phpmyadmin pelos links:
+
+* Turma da tarde: http://localhost:8088
+
+Usuário: root
+Senha: root
+
+
+
+Utilizando o docker
+
+Primeiro passo é abrir um terminal dentro da pasta que contem um arquivo docker-compose.yml
+
+Estando dentro da pasta, utilizar o comando:
+docker compose up --build -d
+
+O comando acima vai fazer com que o projeto esteja rodando em background. Ao reiniciar o computador, é necessário rodar novamente
+
+Se por algum motivo desejar parar a execução, basta novamente abrir um terminal estando na pasta em que o .yml se encontra e digitar: docker compose stop
+
+É possível verificar quais serviços o docker está rodando pelo comando: docker ps -a
