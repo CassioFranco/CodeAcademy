@@ -1,0 +1,9 @@
+Utilizando o OR
+
+- o OR tem a possibilidade de retornar qualquer uma das condições impostas.
+
+-Exemplo: 
+
+WHERE salario > 500 || profissao = "programador".
+
+- neste caso, teremos programadores com salários menores que 5000 e também outros tipos de cargos com salários acima de 5000.

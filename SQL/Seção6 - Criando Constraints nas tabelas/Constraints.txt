@@ -1,0 +1,11 @@
+O que são constraints?
+
+- são regras que determinam como os campos serão preenchidos.
+
+por exemplo:
+
+NOT NULL = o campo não pode ser nulo;
+
+- as constraints são adicionadas na criação da tabela geralmente, porém podemos alterar tabelas para adicioná-las.
+-estas regras são de grande utilidade pois ajudam a organizar e padronizar nosso projeto.
+

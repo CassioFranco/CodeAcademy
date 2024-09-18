@@ -1,0 +1,10 @@
+Função MIN
+
+- a função MIN vai retornar o menor valor de uma coluna específica.
+
+-veja um exemplo:
+
+SELECT MIN (<coluna>) FROM <tabela>;
+
+-desta maneira vamos receber apenas um resultado, o de menor valor.
+

@@ -1,0 +1,10 @@
+Criando um ALIAS
+
+- o ALIAS pode servir para renomear uma coluna com nome não objetivo ou colunas originadas de função.
+
+Por exemplo:
+
+SELECT SUM(salary) AS soma_salario FROM salaries;
+
+-agora a soma dos salários tem o nome de soma_salario, o que é muito mais objetivo!
+-o AS é utilizado para determinar como a coluna deve se chamar.

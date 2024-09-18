@@ -1,0 +1,12 @@
+Função AVG
+
+- a função vai retornar a média de uma determinada coluna.
+
+-AVG vem de average (média).
+
+-podemos utulizar da seguinte maneira:
+
+SELECT AVG(salary) FROM salaries;
+SELECT AVG(salary) AS meida FROM salaries WHERE salary >100000;
+
+-temos assim a média de salários;

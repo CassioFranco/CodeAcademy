@@ -1,0 +1,7 @@
+Primary Key
+
+-A constraint PRIMARY KEY só pode ser adicionada em uma única coluna da tabela, geralmente é o id.
+
+-o valor deve ser único e não pode ser nulo.
+
+-podemos dizer que é um identificador único de um registro na tabela.

@@ -1,0 +1,6 @@
+AUTO INCREMENT
+
+- A constraint AUTO INCREMENT serve para adicionar a quantidade de um em todo registro adicionado.
+-esta constraint é muito utilizada na coluna id, já que ela é única e também chave primária.
+
+- então não precisamos nos preocupar com este valor no INSERT.

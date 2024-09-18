@@ -1,0 +1,12 @@
+Operador BETWEEN
+
+- o BETWEEN é parecido com o IN, mas ele vai receber uma faixa de valores.
+
+- e o resultado será retornado baseado nos registros dentro da faixa.
+
+Veja:
+
+SELECT * FROM dept_emp WHERE dept_no BETWEEN "d001" AND "d008";
+
+-neste exemplo retornamos os departamentos do 1 ao 8.
+- o AND é utilizado para determinar o intervalo.

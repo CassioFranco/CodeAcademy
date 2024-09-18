@@ -1,0 +1,9 @@
+NOT NULL
+
+- a constraints NOT NULL força um valor de uma coluna específica não ser nulo.
+
+-Colocamos a instrução após o nome e tipo da coluna ser declarado:
+
+nome VARCHAR(100) NOT NULL;
+
+-desta maneira a coluna recebe a constraint.

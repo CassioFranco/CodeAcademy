@@ -1,0 +1,9 @@
+Operador IN
+
+-o IN vai fazer uma busca por um conjunto de valores.
+
+exemplo:
+
+SELECT * FROM dept_emp WHERE dept_no IN ("d004","d005","d006");
+
+-desta forma selecionamos os registros apenas dos departamentos d004, d005 e d006.

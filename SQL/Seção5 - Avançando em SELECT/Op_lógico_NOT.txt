@@ -1,0 +1,10 @@
+Utilizando o NOT
+
+- o not inverte cláusula.
+
+-Exemplo:
+WHERE NOT profissao = "programador";
+
+- ou seja teremos todos os dados retornados, menos os que são de programadores.
+
+- pode ser utilizado neste sentido de exclusão de dados.

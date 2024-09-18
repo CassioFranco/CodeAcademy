@@ -1,0 +1,13 @@
+Utilizando a LIMIT
+
+- a instrução LIMIT é outra forma interessante de limitar os resultados e tornar a consulta mais rápida.
+
+- podemos especificar o número de resultados retornados 
+
+-exemplo:
+    LIMIT 15;
+    SELECT * FROM salaries ORDER BY salary DESC LIMIT 10;
+
+- Apenas os 15 primeiros resultados serão exibidos.
+
+-podemos unir com WHERE e outras instruções.

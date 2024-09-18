@@ -1,0 +1,7 @@
+UNIQUE 
+
+-a constraint UNIQUE garante que todos os valores em uma coluna serão diferentes.
+
+-um caso de uso é o e-mail, não queremos e-mails duplicados na nossa base.
+
+- desta maneira, recebemos um erro caso já tenha sido inserido.

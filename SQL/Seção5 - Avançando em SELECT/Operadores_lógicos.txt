@@ -1,0 +1,11 @@
+Operadores lógicos
+
+-podemos combinar a cláusula WHERE com operadores lógicos como:
+
+-AND(e): Recebe duas condições, só volta os resultados que atendem as duas.
+
+-OR(ou): Recebe duas condições, volta os resultados que atendem pelo menos uma.
+
+-NOT(negação): Invertemos uma cláusula.
+
+exemplo: WHERE id > 10 OR salario > 5000.

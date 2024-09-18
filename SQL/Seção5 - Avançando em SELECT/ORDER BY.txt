@@ -1,0 +1,13 @@
+Utilizando a ORDER BY
+
+- a ORDER BY é uma instrução para ordenação de resultados.
+
+- podemos utilizar de forma ascendente(ASC).
+
+- e descendente (DESC).
+
+-utilizamos após o WHERE, se tiver.
+
+-e é baseada em alguma coluna,exemplo:
+
+ORDER BY salario ASC;
