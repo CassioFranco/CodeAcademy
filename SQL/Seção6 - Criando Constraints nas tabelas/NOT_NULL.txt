@@ -7,3 +7,11 @@ NOT NULL
 nome VARCHAR(100) NOT NULL;
 
 -desta maneira a coluna recebe a constraint.
+
+sintax:
+
+REATE TABLE clientes (
+    id SERIAL PRIMARY KEY,
+    cpf VARCHAR(11) UNIQUE NOT NULL,
+    nome VARCHAR(100) NOT NULL
+);

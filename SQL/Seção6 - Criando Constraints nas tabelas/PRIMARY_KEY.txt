@@ -5,3 +5,11 @@ Primary Key
 -o valor deve ser único e não pode ser nulo.
 
 -podemos dizer que é um identificador único de um registro na tabela.
+
+sintax:
+
+CREATE TABLE clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    email VARCHAR(100)
+);

@@ -1,0 +1,14 @@
+LEFT JOIN
+
+- o LEFT JOIN vai retornar todos os dados da tabela da esquerda e os necessários da direita.
+
+- também é chamado de LEFT OUTER JOIN.
+
+- haverá dados retornados da tabela da esquerda mesmo se não corresponder com a outra.
+
+Sintax:
+
+SELECT pessoas.nomen enderecos.*
+FROM pessoas
+LEFT JOIN enderecos
+ON pessoas.id = enderecos.pessoa_id;

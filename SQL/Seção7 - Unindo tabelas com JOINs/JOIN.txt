@@ -1,0 +1,13 @@
+O que é um JOIN?
+
+- são consultas que envolvem duas ou mais tabelas.
+- as tabelas geralmente possuem relação entre si.
+
+- temos então uma consulta mais complexa e com mais dados.
+
+-há três tipos mais utilizados de JOIN:
+
+LEFT e RIGHT JOIN;
+INNER JOIN;
+
+

@@ -4,3 +4,11 @@ AUTO INCREMENT
 -esta constraint é muito utilizada na coluna id, já que ela é única e também chave primária.
 
 - então não precisamos nos preocupar com este valor no INSERT.
+
+sintax:
+
+CREATE TABLE clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    email VARCHAR(100)
+);

@@ -1,0 +1,17 @@
+INDEX
+
+-adicionar um índice a uma coluna faz a consulta que envolva a mesma se torna mais rápida.
+
+- sem o índice a consulta começa da primeira a última coluna até encontrar que você precisa, com o índice as demais serão ignoradas.
+
+-As consultas que são melhoradas pelo INDEX são as com WHERE.
+
+Removendo INDEX
+
+- pode chegar um momento que um índice não é mais necessário, então precisamos remover ele.
+
+-lembrando que o excesso de índice pode ser prejudicial ou fazer com que os índices necessários não funcionem corretamente.
+
+Exemplo de remoção:
+
+DROP INDEX <nome> ON <tabela>;

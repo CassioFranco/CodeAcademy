@@ -1,0 +1,8 @@
+RIGHT JOIN
+
+- o right join é semelhante ao LEFT, porém ele trás as colunas a mais da direita;
+
+-chamado também de RIGHT OUTER JOIN.
+
+Sintax:
+

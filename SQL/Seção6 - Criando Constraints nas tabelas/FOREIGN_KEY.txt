@@ -1,0 +1,10 @@
+FOREIGN KEY
+
+- a FOREIGN KEy é uma ligação de uma tabela a outra.
+-Por exemplo:
+
+uma tabela cadastramos o usuários e em outra o endereço dele.
+
+-na tabela do endereço temos uma FOREIGN KEY que se refere a o id do usuário.
+
+-desta maneira conseguimos impedir remoções de dados que tem ligação entre tabelas.

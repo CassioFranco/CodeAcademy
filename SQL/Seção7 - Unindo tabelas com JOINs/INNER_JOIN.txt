@@ -1,0 +1,26 @@
+INNER JOIN
+
+- o INNER JOIN vai resolver nas colunas que fazem relação entre as tabelas.
+
+-podemos determinar qual coluna resgatar aṕos a instrução SELECT.
+
+-Utilizamos a instrução ON para determinar as colunas que precisam ser iguais.
+
+Sintax:
+
+SELECT employees.firsy_name, employees.lastname, salaries.salary
+FROM employees
+INNER JOIN salaries
+ON employees.emp_no = salaries.empe_no
+WHERE salaries.salary >= 120000
+ORDER BY salaries.salary DESC;
+
+JOIN com mais de duas tabelas:
+
+SELECT employees.first_name, salaries.salary, titles.titles
+FROM employees
+INNER JOIN salaries
+ON employees.emp_no = salaries.emp_no
+INNER JOIN titles
+ON employees.emp_no = titles.emp_no
+WHERE slaries.salary > 125000;
